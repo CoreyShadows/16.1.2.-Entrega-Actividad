@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Info con API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Explorador de Anime</h1>
+    <p>Consumiendo datos desde la API de Jikan</p>
+  </header>
+
+  <main>
+    <section class="search-box">
+      <input type="number" id="anime-id" placeholder="ID de anime (ej: 1)">
+      <button onclick="buscarAnime()">Buscar</button>
+    </section>
+
+    <section id="anime-card" class="card">
+      <p>Introduce un ID para ver información de un anime.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desarrollado por Santiago Aramburu · JAP 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
